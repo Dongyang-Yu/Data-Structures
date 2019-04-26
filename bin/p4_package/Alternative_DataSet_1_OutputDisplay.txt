@@ -1,0 +1,222 @@
+
+MatrixAnalysisClass Diagnostic Array Dump:
+149, 125, 192, 160
+147, 129, 154, 155
+167, 188, 151, 145
+165, 166, 152, 147
+
+Search Start:
+Trying Location: (0, 0)
+Valid Location found: (0, 0): 149
+   Trying Location: (1, 0)
+   Valid Location found: (1, 0): 125
+      Trying Location: (2, 0)
+      Valid Location found: (2, 0): 192
+         Trying Location: (3, 0)
+         Valid Location found: (3, 0): 160
+            Trying Location: (4, 0)
+            Location failed: Location Not Found
+            Trying Location: (3, 1)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 0)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (2, 1)
+         Valid Location found: (2, 1): 154
+            Trying Location: (3, 1)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 1)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+         Trying Location: (1, 0)
+         Location failed: Already In Set
+      Location failed: Doesn't Support Solution
+      Trying Location: (1, 1)
+      Valid Location found: (1, 1): 129
+         Trying Location: (2, 1)
+         Valid Location found: (2, 1): 154
+            Trying Location: (3, 1)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 2)
+            Valid Location found: (2, 2): 151
+               Trying Location: (3, 2)
+               Location failed: Over Requested Sum
+               Trying Location: (2, 3)
+               Location failed: Over Requested Sum
+               Trying Location: (1, 2)
+               Location failed: Over Requested Sum
+            Location failed: Doesn't Support Solution
+            Trying Location: (1, 1)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (1, 2)
+         Valid Location found: (1, 2): 188
+            Trying Location: (2, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 3)
+            Location failed: Over Requested Sum
+            Trying Location: (0, 2)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+         Trying Location: (0, 1)
+         Valid Location found: (0, 1): 147
+            Trying Location: (1, 1)
+            Location failed: Already In Set
+            Trying Location: (0, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (-1, 1)
+            Location failed: Location Not Found
+         Location failed: Doesn't Support Solution
+      Location failed: Doesn't Support Solution
+      Trying Location: (0, 0)
+      Location failed: Already In Set
+   Location failed: Doesn't Support Solution
+   Trying Location: (0, 1)
+   Valid Location found: (0, 1): 147
+      Trying Location: (1, 1)
+      Valid Location found: (1, 1): 129
+         Trying Location: (2, 1)
+         Valid Location found: (2, 1): 154
+            Trying Location: (3, 1)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 1)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (1, 2)
+         Valid Location found: (1, 2): 188
+            Trying Location: (2, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 3)
+            Location failed: Over Requested Sum
+            Trying Location: (0, 2)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+         Trying Location: (0, 1)
+         Location failed: Already In Set
+      Location failed: Doesn't Support Solution
+      Trying Location: (0, 2)
+      Valid Location found: (0, 2): 167
+         Trying Location: (1, 2)
+         Valid Location found: (1, 2): 188
+            Trying Location: (2, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 3)
+            Location failed: Over Requested Sum
+            Trying Location: (0, 2)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (0, 3)
+         Valid Location found: (0, 3): 165
+            Trying Location: (1, 3)
+            Location failed: Over Requested Sum
+            Trying Location: (0, 4)
+            Location failed: Location Not Found
+            Trying Location: (-1, 3)
+            Location failed: Location Not Found
+         Location failed: Doesn't Support Solution
+         Trying Location: (-1, 2)
+         Location failed: Location Not Found
+      Location failed: Doesn't Support Solution
+      Trying Location: (-1, 1)
+      Location failed: Location Not Found
+   Location failed: Doesn't Support Solution
+   Trying Location: (-1, 0)
+   Location failed: Location Not Found
+Location failed: Doesn't Support Solution
+Trying Location: (1, 0)
+Valid Location found: (1, 0): 125
+   Trying Location: (2, 0)
+   Valid Location found: (2, 0): 192
+      Trying Location: (3, 0)
+      Valid Location found: (3, 0): 160
+         Trying Location: (4, 0)
+         Location failed: Location Not Found
+         Trying Location: (3, 1)
+         Valid Location found: (3, 1): 155
+            Trying Location: (4, 1)
+            Location failed: Location Not Found
+            Trying Location: (3, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 1)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+         Trying Location: (2, 0)
+         Location failed: Already In Set
+      Location failed: Doesn't Support Solution
+      Trying Location: (2, 1)
+      Valid Location found: (2, 1): 154
+         Trying Location: (3, 1)
+         Valid Location found: (3, 1): 155
+            Trying Location: (4, 1)
+            Location failed: Location Not Found
+            Trying Location: (3, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 1)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (2, 2)
+         Valid Location found: (2, 2): 151
+            Trying Location: (3, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (2, 3)
+            Location failed: Over Requested Sum
+            Trying Location: (1, 2)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+         Trying Location: (1, 1)
+         Valid Location found: (1, 1): 129
+            Trying Location: (2, 1)
+            Location failed: Already In Set
+            Trying Location: (1, 2)
+            Location failed: Over Requested Sum
+            Trying Location: (0, 1)
+            Location failed: Over Requested Sum
+         Location failed: Doesn't Support Solution
+      Location failed: Doesn't Support Solution
+      Trying Location: (1, 0)
+      Location failed: Already In Set
+   Location failed: Doesn't Support Solution
+   Trying Location: (1, 1)
+   Valid Location found: (1, 1): 129
+      Trying Location: (2, 1)
+      Valid Location found: (2, 1): 154
+         Trying Location: (3, 1)
+         Valid Location found: (3, 1): 155
+            Trying Location: (4, 1)
+            Location failed: Location Not Found
+            Trying Location: (3, 2)
+            Valid Location found: (3, 2): 145
+               Trying Location: (4, 2)
+               Location failed: Location Not Found
+               Trying Location: (3, 3)
+               Location failed: Over Requested Sum
+               Trying Location: (2, 2)
+               Location failed: Over Requested Sum
+            Location failed: Doesn't Support Solution
+            Trying Location: (2, 1)
+            Location failed: Already In Set
+         Location failed: Doesn't Support Solution
+         Trying Location: (2, 2)
+         Valid Location found: (2, 2): 151
+            Trying Location: (3, 2)
+            Valid Location found: (3, 2): 145
+               Trying Location: (4, 2)
+               Location failed: Location Not Found
+               Trying Location: (3, 3)
+               Location failed: Over Requested Sum
+               Trying Location: (2, 2)
+               Location failed: Already In Set
+            Location failed: Doesn't Support Solution
+            Trying Location: (2, 3)
+            Valid Location found: (2, 3): 152
+            Found at: (2, 3): 152
+         Found at: (2, 2): 151
+      Found at: (2, 1): 154
+   Found at: (1, 1): 129
+Found at: (1, 0): 125
+
+Search End: Successful Set: (1, 0): 125, (1, 1): 129, (2, 1): 154, (2, 2): 151, (2, 3): 152

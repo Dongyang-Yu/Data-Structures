@@ -1,0 +1,21 @@
+Array node report: 
+ Index:      0      1      2      3      4      5      6      7      8      9     10 
+           -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+              3      4      4     10      2      1      3      8      2      5      8 
+
+With a table size of 11
+The number of empty bins was 0, and the longest linked node list was 10 nodes.
+
+Removed: Reyes, Connor/191261/M/3.295578577
+Removed: Hack, Jacque/641605/F/3.634297476
+Removed: Catania, DeMarco/733002/M/2.577448044
+Removed: Becker, Anna/716502/F/2.87310837
+Removed: Goffinet, Jahshua/722457/M/2.258524754
+Removed: Hunt, Stephanie/597706/F/3.7864219
+Array node report: 
+ Index:      0      1      2      3      4      5      6      7      8      9     10 
+           -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+              2      3      3      9      2      1      2      7      2      5      8 
+
+With a table size of 11
+The number of empty bins was 0, and the longest linked node list was 9 nodes.

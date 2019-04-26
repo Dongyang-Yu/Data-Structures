@@ -1,0 +1,17 @@
+1. constructors, [save spaces]
+2. copy constructor/powerSetToString use length?
+3. findePowerSet(), [change intToPower to toPower] update
+4. toPower() negative number?
+5. isSubsetOf  call hasElement?
+6. loadItem 
+		if( valueCharacteristic == ODD && isEven( runningValue ) 
+                || valueCharacteristic == EVEN && !isEven( runningValue ) )
+               {
+                runningValue ++;
+               }
+
+
+
+
+
+

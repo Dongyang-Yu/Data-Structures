@@ -1,0 +1,238 @@
+Adding Items to heap
+Items are added by priority first, and entry item next.
+
+Adding new process: P(Run80)914/1;
+
+Adding new process: P(Run28)405/2;
+   - Bubble up:
+     - Swapping parent: P(Run80)914/1; with child: P(Run28)405/2;
+
+Adding new process: P(Run39)460/3;
+
+Adding new process: P(Run15)304/4;
+   - Bubble up:
+     - Swapping parent: P(Run80)914/1; with child: P(Run15)304/4;
+   - Bubble up:
+     - Swapping parent: P(Run28)405/2; with child: P(Run15)304/4;
+
+Adding new process: P(Run64)738/5;
+
+Adding new process: P(Run71)606/6;
+
+Adding new process: P(Run31)981/7;
+
+Adding new process: P(Run71)661/8;
+   - Bubble up:
+     - Swapping parent: P(Run80)914/1; with child: P(Run71)661/8;
+
+Adding new process: P(Run91)662/9;
+
+Adding new process: P(Run54)235/10;
+   - Bubble up:
+     - Swapping parent: P(Run64)738/5; with child: P(Run54)235/10;
+   - Bubble up:
+     - Swapping parent: P(Run28)405/2; with child: P(Run54)235/10;
+   - Bubble up:
+     - Swapping parent: P(Run15)304/4; with child: P(Run54)235/10;
+
+Adding new process: P(Run37)326/11;
+   - Bubble up:
+     - Swapping parent: P(Run28)405/2; with child: P(Run37)326/11;
+
+Adding new process: P(Run64)244/12;
+   - Bubble up:
+     - Swapping parent: P(Run71)606/6; with child: P(Run64)244/12;
+   - Bubble up:
+     - Swapping parent: P(Run39)460/3; with child: P(Run64)244/12;
+
+Adding new process: P(Run42)105/13;
+   - Bubble up:
+     - Swapping parent: P(Run39)460/3; with child: P(Run42)105/13;
+   - Bubble up:
+     - Swapping parent: P(Run64)244/12; with child: P(Run42)105/13;
+   - Bubble up:
+     - Swapping parent: P(Run54)235/10; with child: P(Run42)105/13;
+
+Adding new process: P(Run60)199/14;
+   - Bubble up:
+     - Swapping parent: P(Run31)981/7; with child: P(Run60)199/14;
+   - Bubble up:
+     - Swapping parent: P(Run54)235/10; with child: P(Run60)199/14;
+
+Adding new process: P(Run62)604/15;
+
+Adding new process: P(Run44)428/16;
+   - Bubble up:
+     - Swapping parent: P(Run80)914/1; with child: P(Run44)428/16;
+   - Bubble up:
+     - Swapping parent: P(Run71)661/8; with child: P(Run44)428/16;
+
+Adding new process: P(Run53)524/17;
+   - Bubble up:
+     - Swapping parent: P(Run71)661/8; with child: P(Run53)524/17;
+
+Adding new process: P(Run45)307/18;
+   - Bubble up:
+     - Swapping parent: P(Run91)662/9; with child: P(Run45)307/18;
+   - Bubble up:
+     - Swapping parent: P(Run44)428/16; with child: P(Run45)307/18;
+
+Adding new process: P(Run27)169/19;
+   - Bubble up:
+     - Swapping parent: P(Run44)428/16; with child: P(Run27)169/19;
+   - Bubble up:
+     - Swapping parent: P(Run45)307/18; with child: P(Run27)169/19;
+   - Bubble up:
+     - Swapping parent: P(Run15)304/4; with child: P(Run27)169/19;
+
+Adding new process: P(Run37)344/20;
+   - Bubble up:
+     - Swapping parent: P(Run64)738/5; with child: P(Run37)344/20;
+
+Removing Items from heap
+
+Removing process: P(Run42)105/13;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with left child: P(Run27)169/19;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with left child: P(Run15)304/4;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run45)307/18;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run44)428/16;
+P(Run42)105/13;
+
+Removing process: P(Run27)169/19;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run60)199/14;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run54)235/10;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run62)604/15;
+P(Run27)169/19;
+
+Removing process: P(Run60)199/14;
+   - Trickle down:
+     - Swapping Parent: P(Run91)662/9; with right child: P(Run54)235/10;
+   - Trickle down:
+     - Swapping Parent: P(Run91)662/9; with left child: P(Run64)244/12;
+   - Trickle down:
+     - Swapping Parent: P(Run91)662/9; with right child: P(Run39)460/3;
+P(Run60)199/14;
+
+Removing process: P(Run54)235/10;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with right child: P(Run64)244/12;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with left child: P(Run39)460/3;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with left child: P(Run71)606/6;
+P(Run54)235/10;
+
+Removing process: P(Run64)244/12;
+   - Trickle down:
+     - Swapping Parent: P(Run80)914/1; with left child: P(Run15)304/4;
+   - Trickle down:
+     - Swapping Parent: P(Run80)914/1; with left child: P(Run45)307/18;
+   - Trickle down:
+     - Swapping Parent: P(Run80)914/1; with right child: P(Run44)428/16;
+P(Run64)244/12;
+
+Removing process: P(Run15)304/4;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with left child: P(Run45)307/18;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run37)326/11;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with left child: P(Run37)344/20;
+P(Run15)304/4;
+
+Removing process: P(Run45)307/18;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run37)326/11;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with right child: P(Run37)344/20;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with right child: P(Run28)405/2;
+P(Run45)307/18;
+
+Removing process: P(Run37)326/11;
+   - Trickle down:
+     - Swapping Parent: P(Run91)662/9; with left child: P(Run37)344/20;
+   - Trickle down:
+     - Swapping Parent: P(Run91)662/9; with right child: P(Run28)405/2;
+P(Run37)326/11;
+
+Removing process: P(Run37)344/20;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with left child: P(Run28)405/2;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with left child: P(Run44)428/16;
+   - Trickle down:
+     - Swapping Parent: P(Run71)661/8; with left child: P(Run53)524/17;
+P(Run37)344/20;
+
+Removing process: P(Run28)405/2;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run44)428/16;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run53)524/17;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run71)661/8;
+P(Run28)405/2;
+
+Removing process: P(Run44)428/16;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run39)460/3;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run62)604/15;
+P(Run44)428/16;
+
+Removing process: P(Run39)460/3;
+   - Trickle down:
+     - Swapping Parent: P(Run80)914/1; with left child: P(Run53)524/17;
+   - Trickle down:
+     - Swapping Parent: P(Run80)914/1; with left child: P(Run71)661/8;
+P(Run39)460/3;
+
+Removing process: P(Run53)524/17;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with right child: P(Run62)604/15;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run71)606/6;
+P(Run53)524/17;
+
+Removing process: P(Run62)604/15;
+   - Trickle down:
+     - Swapping Parent: P(Run64)738/5; with right child: P(Run71)606/6;
+P(Run62)604/15;
+
+Removing process: P(Run71)606/6;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run71)661/8;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with right child: P(Run91)662/9;
+P(Run71)606/6;
+
+Removing process: P(Run71)661/8;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run91)662/9;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run80)914/1;
+P(Run71)661/8;
+
+Removing process: P(Run91)662/9;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with right child: P(Run64)738/5;
+P(Run91)662/9;
+
+Removing process: P(Run64)738/5;
+   - Trickle down:
+     - Swapping Parent: P(Run31)981/7; with left child: P(Run80)914/1;
+P(Run64)738/5;
+
+Removing process: P(Run80)914/1;
+P(Run80)914/1;
+
+Removing process: P(Run31)981/7;
+P(Run31)981/7;

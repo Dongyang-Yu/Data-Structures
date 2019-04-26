@@ -1,0 +1,87 @@
+Inserting before cursor
+Data Display: [5]
+Data Display: 10 [5]
+Data Display: 10 15 [5]
+Data Display: 10 15 20 [5]
+Data Display: 10 15 20 25 [5]
+
+Inserting after cursor
+Data Display: 10 15 20 25 [5] 30
+Data Display: 10 15 20 25 [5] 35 30
+Data Display: 10 15 20 25 [5] 40 35 30
+Data Display: 10 15 20 25 [5] 45 40 35 30
+Data Display: 10 15 20 25 [5] 50 45 40 35 30
+
+Moving previous
+Data Display: 10 15 20 [25] 5 50 45 40 35 30
+Data Display: 10 15 [20] 25 5 50 45 40 35 30
+Data Display: 10 [15] 20 25 5 50 45 40 35 30
+Data Display: [10] 15 20 25 5 50 45 40 35 30
+Data Display: [10] 15 20 25 5 50 45 40 35 30
+
+Removing data
+Data Display: [15] 20 25 5 50 45 40 35 30
+
+Removing data
+Data Display: [20] 25 5 50 45 40 35 30
+
+Set to beginning of list
+Data Display: [20] 25 5 50 45 40 35 30
+Data Display: 20 [25] 5 50 45 40 35 30
+Data Display: 20 25 [5] 50 45 40 35 30
+Data Display: 20 25 5 [50] 45 40 35 30
+Data Display: 20 25 5 50 [45] 40 35 30
+Data Display: 20 25 5 50 45 [40] 35 30
+Data Display: 20 25 5 50 45 40 [35] 30
+Data Display: 20 25 5 50 45 40 35 [30]
+
+Copying list
+Data Display: [20] 25 5 50 45 40 35 30
+Data Display: 20 [25] 5 50 45 40 35 30
+Data Display: 20 25 [5] 50 45 40 35 30
+Data Display: 20 25 5 [50] 45 40 35 30
+Data Display: 20 25 5 50 [45] 40 35 30
+Data Display: 20 25 5 50 45 [40] 35 30
+Data Display: 20 25 5 50 45 40 [35] 30
+Data Display: 20 25 5 50 45 40 35 [30]
+
+Setting to end, looping down, removing
+Removed: 30
+Data Display: 20 25 5 50 45 40 [35]
+Removed: 35
+Data Display: 20 25 5 50 45 [40]
+Removed: 40
+Data Display: 20 25 5 50 [45]
+Removed: 45
+Data Display: 20 25 5 [50]
+Removed: 50
+Data Display: 20 25 [5]
+Removed: 5
+Data Display: 20 [25]
+Removed: 25
+Data Display: [20]
+Removed: 20
+Data Display: Empty List
+
+Inserting after cursor
+Data Display: [30]
+Data Display: [30] 35
+Data Display: [30] 40 35
+Data Display: [30] 45 40 35
+Data Display: [30] 50 45 40 35
+
+Inserting before cursor
+Data Display: 5 [30] 50 45 40 35
+Data Display: 5 10 [30] 50 45 40 35
+Data Display: 5 10 15 [30] 50 45 40 35
+Data Display: 5 10 15 20 [30] 50 45 40 35
+Data Display: 5 10 15 20 25 [30] 50 45 40 35
+
+Removing at cursor
+Data Display: 5 10 15 20 [25] 50 45 40 35
+
+Removing at cursor
+Data Display: 5 10 15 [20] 50 45 40 35
+
+Removing at cursor
+Data Display: 5 10 [15] 50 45 40 35
